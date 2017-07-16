@@ -19,5 +19,4 @@ public class WorkoutFragment extends Fragment {
     fragment.setArguments(args);
     return fragment;
   }
-
 }
