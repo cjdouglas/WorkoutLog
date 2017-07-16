@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">WorkoutLog</string>
+    <string name="workoutlog_bottom_nav_running_title">Running</string>
+    <string name="workoutlog_bottom_nav_weights_title">Weights</string>
+    <string name="workoutlog_bottom_nav_analysis_title">Analysis</string>
 </resources>
