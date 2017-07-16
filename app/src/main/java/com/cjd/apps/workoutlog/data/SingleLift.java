@@ -1,7 +1,7 @@
 package com.cjd.apps.workoutlog.data;
 
 /**
- * An model to represent a single weight exercise inside a full weight workout.
+ * A model to represent a single weight exercise inside a full weight workout.
  */
 interface SingleLift {
   String getLiftName();
