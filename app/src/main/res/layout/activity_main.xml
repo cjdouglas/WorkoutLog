@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/workoutlog_bottom_nav_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimary"
-        app:itemIconTint="@color/white"
-        app:itemTextColor="@color/white"
-        app:menu="@menu/workoutlog_bottom_nav_menu"/>
+        android:background="@color/white"
+        app:itemIconTint="@drawable/workoutlog_bottom_nav_color_state"
+        app:itemTextColor="@drawable/workoutlog_bottom_nav_color_state"
+        app:menu="@menu/workoutlog_bottom_nav_menu"
+        app:elevation="@dimen/workoutlog_bottom_nav_elevation"/>
 
-</RelativeLayout>
+</LinearLayout>
